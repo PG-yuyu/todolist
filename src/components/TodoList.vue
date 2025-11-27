@@ -31,7 +31,7 @@
 <script setup>
 import { ref } from 'vue';
 
-// 初始待办数据（与示例图一致）
+
 const todoList = ref(['去图书馆学习', '上羽毛球课', '会议室开会']);
 const newTodo = ref('');
 
@@ -59,7 +59,7 @@ const clearAll = () => {
 </script>
 
 <style scoped>
-/* 容器样式（灰色背景框） */
+/* 容器样式*/
 .todo-container {
   width: 600px;
   margin: 50px auto;
@@ -82,7 +82,7 @@ const clearAll = () => {
   margin-bottom: 20px;
 }
 
-/* 单个待办项（白色背景条） */
+/* 单个待办项 */
 .todo-item {
   display: flex;
   justify-content: space-between;
@@ -122,9 +122,9 @@ const clearAll = () => {
   margin-bottom: 20px;
 }
 
-/* 输入框样式（蓝色边框） */
+/* 输入框样式 */
 .todo-input {
-  flex: 1; /* 占满剩余宽度 */
+  flex: 1; 
   padding: 10px 15px;
   border: 1px solid #0d6efd; /* 蓝色边框 */
   border-radius: 4px;
